@@ -1,0 +1,20 @@
+{
+  "name": "Mapování – trénink",
+  "short_name": "Mapování",
+  "description": "Procvičování otázek Mapování BEA011 – Test 3 (200) a Test 5 (50). Funguje offline.",
+  "lang": "cs",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1d5fa8",
+  "background_color": "#f3f5f8",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mapování – trénink</title>
+  <meta name="description" content="Procvičování otázek Mapování BEA011 – Test 3 a Test 5. Funguje offline.">
+  <meta name="theme-color" content="#1d5fa8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1720" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn" id="backBtn" aria-label="Zpět" hidden>‹</button>
+    <h1 id="title">Mapování – trénink</h1>
+    <span class="top-right" id="topRight"></span>
+  </header>
+  <div id="updateBar" class="update-bar" hidden>
+    <span>Je nová verze</span>
+    <button id="updateBtn" class="btn small">Načíst</button>
+  </div>
+  <main id="app" tabindex="-1"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
